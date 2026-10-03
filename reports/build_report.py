@@ -328,5 +328,5 @@ frames_ieee2 = [Frame(m, 1.8 * cm, cw, LH - m - 1.8 * cm, id="d1", leftPadding=0
 doc.addPageTemplates([PageTemplate("main", frames=[main], onPage=footer, pagesize=A4),
                       PageTemplate("ieee", frames=frames_ieee, onPage=footer_ieee, pagesize=letter, autoNextPageTemplate="ieee2"),
                       PageTemplate("ieee2", frames=frames_ieee2, onPage=footer_ieee, pagesize=letter)])
-doc.build(story)
+doc.build(list(story))
 print("PDF:", out)
