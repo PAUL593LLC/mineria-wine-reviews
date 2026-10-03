@@ -1,0 +1,63 @@
+{
+  "k": 4,
+  "silhouette_by_k": {
+    "2": 0.29274566796197443,
+    "3": 0.2646850209170154,
+    "4": 0.2121946865019661,
+    "5": 0.19514957871952732,
+    "6": 0.1870734185645724,
+    "7": 0.18825856395525384,
+    "8": 0.18713600090916357
+  },
+  "silhouette_final": 0.2121946865019661,
+  "profiles": [
+    {
+      "cluster": 1,
+      "n": 23798,
+      "points": 92.21,
+      "price_median": 60.0,
+      "age": 6.49,
+      "desc_words": 52.19,
+      "high_quality": 0.93,
+      "country_top": "US",
+      "variety_top": "Pinot Noir",
+      "share_pct": 19.8
+    },
+    {
+      "cluster": 0,
+      "n": 41161,
+      "points": 89.29,
+      "price_median": 27.0,
+      "age": 4.52,
+      "desc_words": 40.65,
+      "high_quality": 0.46,
+      "country_top": "US",
+      "variety_top": "Pinot Noir",
+      "share_pct": 34.3
+    },
+    {
+      "cluster": 2,
+      "n": 19484,
+      "points": 87.61,
+      "price_median": 25.0,
+      "age": 11.89,
+      "desc_words": 42.44,
+      "high_quality": 0.23,
+      "country_top": "US",
+      "variety_top": "Cabernet Sauvignon",
+      "share_pct": 16.2
+    },
+    {
+      "cluster": 3,
+      "n": 35545,
+      "points": 85.4,
+      "price_median": 15.0,
+      "age": 5.41,
+      "desc_words": 31.16,
+      "high_quality": 0.0,
+      "country_top": "US",
+      "variety_top": "Chardonnay",
+      "share_pct": 29.6
+    }
+  ]
+}

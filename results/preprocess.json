@@ -1,0 +1,19 @@
+{
+  "rows_raw": 129971,
+  "rows_after_dedup": 119988,
+  "duplicates_removed": 9983,
+  "price_cap_p999": 476.0,
+  "price_capped_rows": 111,
+  "rows_final": 119988,
+  "share_high_quality": 0.37995466213287993,
+  "missing_after": {
+    "log_price": 0.06996532986631997,
+    "age": 0.03578691202453579
+  },
+  "age_range": [
+    0.0,
+    66.0
+  ],
+  "desc_words_mean": 40.41855852251892,
+  "year_extracted_pct": 96.42130879754643
+}

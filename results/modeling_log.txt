@@ -1,0 +1,14 @@
+train (95990, 13) test (23998, 13) pos rate 0.38 0.38
+Baseline (clase mayoritaria)               acc=0.6200 f1=0.0000 auc=0.5000 (2s)
+Regresión logística (tabular)              acc=0.8067 f1=0.7336 auc=0.8861 (4s)
+Árbol de decisión                          acc=0.7949 f1=0.7223 auc=0.8704 (5s)
+Random Forest                              acc=0.8132 f1=0.7442 auc=0.8927 (58s)
+Gradient Boosting (tabular)                acc=0.8223 f1=0.7631 auc=0.9019 (8s)
+Regresión logística + TF-IDF               acc=0.8678 f1=0.8224 auc=0.9431 (54s)
+HGB best {'clf__l2_regularization': 1.0, 'clf__learning_rate': 0.05, 'clf__max_leaf_nodes': 63} 0.9016 65s
+LR+TFIDF best {'clf__C': 1.0} 0.9418 90s
+Gradient Boosting (ajustado)               acc=0.8221 f1=0.7630 auc=0.9020 (16s)
+Regresión logística + TF-IDF (ajustada)    acc=0.8678 f1=0.8224 auc=0.9431 (54s)
+Gradient Boosting (ajustado, sin catador)  acc=0.8189 f1=0.7584 auc=0.8984 (13s)
+Stacking (texto + tabular)                 acc=0.8684 f1=0.8233 auc=0.9433 (355s)
+done

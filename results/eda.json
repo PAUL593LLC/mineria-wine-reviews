@@ -1,0 +1,110 @@
+{
+  "shape": [
+    129971,
+    13
+  ],
+  "missing_pct": {
+    "region_2": 61.14,
+    "designation": 28.83,
+    "taster_twitter_handle": 24.02,
+    "taster_name": 20.19,
+    "region_1": 16.35,
+    "price": 6.92,
+    "province": 0.05,
+    "country": 0.05,
+    "variety": 0.0,
+    "points": 0.0,
+    "description": 0.0,
+    "title": 0.0,
+    "winery": 0.0
+  },
+  "duplicates_desc_title": 9983,
+  "n_countries": 43,
+  "n_varieties": 707,
+  "n_provinces": 425,
+  "n_tasters": 19,
+  "points": {
+    "count": 129971.0,
+    "mean": 88.447,
+    "std": 3.04,
+    "min": 80.0,
+    "25%": 86.0,
+    "50%": 88.0,
+    "75%": 91.0,
+    "max": 100.0
+  },
+  "price": {
+    "count": 120975.0,
+    "mean": 35.363,
+    "std": 41.022,
+    "min": 4.0,
+    "25%": 17.0,
+    "50%": 25.0,
+    "75%": 42.0,
+    "max": 3300.0
+  },
+  "share_high_quality_raw": 0.37735340960675845,
+  "top_countries": {
+    "US": 54504,
+    "France": 22093,
+    "Italy": 19540,
+    "Spain": 6645,
+    "Portugal": 5691,
+    "Chile": 4472,
+    "Argentina": 3800,
+    "Austria": 3345,
+    "Australia": 2329,
+    "Germany": 2165
+  },
+  "top_varieties": {
+    "Pinot Noir": 13272,
+    "Chardonnay": 11753,
+    "Cabernet Sauvignon": 9472,
+    "Red Blend": 8946,
+    "Bordeaux-style Red Blend": 6915,
+    "Riesling": 5189,
+    "Sauvignon Blanc": 4967,
+    "Syrah": 4142,
+    "Rosé": 3564,
+    "Merlot": 3102
+  },
+  "spearman_price_points": {
+    "rho": 0.6057853020676698,
+    "p": 0.0
+  },
+  "price_q": {
+    "0.5": 25.0,
+    "0.9": 65.0,
+    "0.99": 155.0,
+    "0.999": 468.025999999998
+  },
+  "kruskal_points_country": {
+    "H": 5694.231271407191,
+    "p": 0.0
+  },
+  "kruskal_points_taster": {
+    "H": 9634.279607135599,
+    "p": 0.0
+  },
+  "taster_mean_points": {
+    "Alexander Peartree": 85.86,
+    "Carrie Dykes": 86.4,
+    "Susan Kostrzewa": 86.61,
+    "Fiona Adams": 86.89,
+    "Michael Schachner": 86.91,
+    "Lauren Buzzeo": 87.74,
+    "Christina Pickard": 87.83,
+    "Jeff Jenssen": 88.32,
+    "Anna Lee C. Iijima": 88.42,
+    "Joe Czerwinski": 88.54,
+    "Jim Gordon": 88.63,
+    "Roger Voss": 88.71,
+    "Sean P. Sullivan": 88.76,
+    "Kerin O’Keefe": 88.87,
+    "Paul Gregutt": 89.08,
+    "Mike DeSimone": 89.1,
+    "Virginie Boone": 89.21,
+    "Matt Kettmann": 90.01,
+    "Anne Krebiehl MW": 90.56
+  }
+}

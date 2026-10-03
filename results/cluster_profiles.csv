@@ -1,0 +1,5 @@
+cluster,n,points,price_median,age,desc_words,high_quality,country_top,variety_top,share_pct
+1,23798,92.21,60.0,6.49,52.19,0.93,US,Pinot Noir,19.8
+0,41161,89.29,27.0,4.52,40.65,0.46,US,Pinot Noir,34.3
+2,19484,87.61,25.0,11.89,42.44,0.23,US,Cabernet Sauvignon,16.2
+3,35545,85.4,15.0,5.41,31.16,0.0,US,Chardonnay,29.6

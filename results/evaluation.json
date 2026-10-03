@@ -1,0 +1,97 @@
+{
+  "best": "Regresión logística + TF-IDF (ajustada)",
+  "auc_ci95": [
+    0.9397059224275108,
+    0.9448161332378576
+  ],
+  "f1_ci95": [
+    0.8135128462930633,
+    0.8249172395670072
+  ],
+  "auc_diff_final_minus_gb_ci95": [
+    0.039717614474674166,
+    0.04569733958914572
+  ],
+  "auc_diff_gb_minus_text_ci95": [
+    -0.045373983381422185,
+    -0.039427814589900745
+  ],
+  "error_by_price_band": {
+    "<15": 0.042,
+    "15-30": 0.159,
+    "30-60": 0.176,
+    "60-120": 0.117,
+    ">120": 0.075
+  },
+  "error_price_missing": 0.16372202591283863,
+  "error_by_taster": {
+    "Fiona Adams": 0.0,
+    "Christina Pickard": 0.0,
+    "Alexander Peartree": 0.031,
+    "Michael Schachner": 0.072,
+    "Lauren Buzzeo": 0.096,
+    "Carrie Dykes": 0.097,
+    "Kerin O’Keefe": 0.122,
+    "Susan Kostrzewa": 0.124,
+    "Unknown": 0.129,
+    "Anne Krebiehl MW": 0.129,
+    "Anna Lee C. Iijima": 0.134,
+    "Jim Gordon": 0.139,
+    "Roger Voss": 0.143,
+    "Paul Gregutt": 0.151,
+    "Sean P. Sullivan": 0.157,
+    "Joe Czerwinski": 0.163,
+    "Virginie Boone": 0.17,
+    "Matt Kettmann": 0.192,
+    "Jeff Jenssen": 0.212,
+    "Mike DeSimone": 0.256
+  },
+  "top_text_terms_pos": {
+    "complex": 6.36,
+    "beautiful": 6.12,
+    "delicious": 6.07,
+    "long": 5.99,
+    "92": 5.41,
+    "impressive": 5.35,
+    "2022": 5.34,
+    "elegant": 5.29,
+    "rich": 5.29,
+    "91": 5.04,
+    "gorgeous": 4.89,
+    "2020": 4.49,
+    "lush": 4.25,
+    "great": 4.22,
+    "years": 4.21
+  },
+  "top_text_terms_neg": {
+    "simple": -6.34,
+    "lacks": -5.35,
+    "straightforward": -4.91,
+    "somewhat": -4.71,
+    "dimensional": -3.89,
+    "bit": -3.77,
+    "little": -3.45,
+    "easy": -3.37,
+    "short": -3.34,
+    "astringent": -3.28,
+    "lean": -3.21,
+    "bitter": -3.18,
+    "moderately": -3.12,
+    "overripe": -3.11,
+    "rustic": -3.01
+  },
+  "perm_importance": {
+    "desc_len_chars": 0.2314,
+    "log_price": 0.1566,
+    "taster_name": 0.0236,
+    "province": 0.0168,
+    "age": 0.0143,
+    "variety": 0.0137,
+    "desc_words": 0.013,
+    "has_designation": 0.0026,
+    "country": 0.0015,
+    "age_missing": 0.0,
+    "has_region": -0.0,
+    "price_missing": 0.0
+  }
+}

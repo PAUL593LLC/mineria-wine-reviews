@@ -1,0 +1,16 @@
+{
+  "hgb": {
+    "params": {
+      "clf__l2_regularization": 1.0,
+      "clf__learning_rate": 0.05,
+      "clf__max_leaf_nodes": 63
+    },
+    "cv_auc": 0.901595476878961
+  },
+  "lr_tfidf": {
+    "params": {
+      "clf__C": 1.0
+    },
+    "cv_auc": 0.9418496008751504
+  }
+}
