@@ -97,7 +97,7 @@ story += [Spacer(1, 3.5 * cm), P("Guía de Práctica Experimental 1 – Minería
           P("Dataset Wine Reviews (Kaggle / WineEnthusiast)", SUB), Spacer(1, 2 * cm),
           P("<b>Estudiante(s):</b> [Nombre(s) y apellido(s)]", SUB), P("<b>Asignatura:</b> Minería de Datos", SUB),
           P("<b>Entrega:</b> Semana 16", SUB), Spacer(1, 1.5 * cm),
-          P("<b>Repositorio:</b> [URL del repositorio de GitHub]", SUB),
+          P("<b>Repositorio:</b> https://github.com/PAUL593LLC/mineria-wine-reviews", SUB),
           P("<b>Cuaderno:</b> notebooks/Practica1_Wine_Reviews.ipynb (Google Colab)", SUB), PageBreak()]
 
 # =================================================================== 1 PROBLEMA
