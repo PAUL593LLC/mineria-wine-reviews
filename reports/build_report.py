@@ -95,7 +95,7 @@ story += [Spacer(1, 3.5 * cm), P("Guía de Práctica Experimental 1 – Minería
           P("Aplicación de técnicas de data mining en un caso de estudio", SUB), Spacer(1, 1 * cm),
           P("Predicción de la calidad de vinos a partir de reseñas de catadores", TITLE),
           P("Dataset Wine Reviews (Kaggle / WineEnthusiast)", SUB), Spacer(1, 2 * cm),
-          P("<b>Estudiante(s):</b> [Nombre(s) y apellido(s)]", SUB), P("<b>Asignatura:</b> Minería de Datos", SUB),
+          P("<b>Estudiante(s):</b> Edison Paul Llerena Cuzco", SUB), P("<b>Universidad:</b> Universidad Estatal Amazónica", SUB), P("<b>Correo:</b> ep.llerenac@uea.edu.ec", SUB), P("<b>Asignatura:</b> Minería de Datos", SUB),
           P("<b>Entrega:</b> Semana 16", SUB), Spacer(1, 1.5 * cm),
           P("<b>Repositorio:</b> https://github.com/PAUL593LLC/mineria-wine-reviews", SUB),
           P("<b>Cuaderno:</b> notebooks/Practica1_Wine_Reviews.ipynb (Google Colab)", SUB), PageBreak()]
@@ -246,7 +246,7 @@ story += [NextPageTemplate("ieee"), PageBreak()]
 story += [P("Anexo – Artículo técnico (formato IEEE short paper)", ParagraphStyle("an", fontName="Ar-I", fontSize=8, textColor=colors.grey)), Spacer(1, 2),
           P("Predicting Wine Quality from Expert Reviews: A Data Mining Case Study on the Wine Reviews Dataset".replace("Predicting Wine Quality from Expert Reviews: A Data Mining Case Study on the Wine Reviews Dataset",
                                                                                                                            "Predicción de la calidad de vinos a partir de reseñas de expertos: un caso de estudio de minería de datos"), IT),
-          P("[Nombre(s) del autor(es)]<br/><i>Asignatura de Minería de Datos</i><br/>[Universidad] · [correo electrónico]", IA),
+          P("Edison Paul Llerena Cuzco<br/><i>Universidad Estatal Amazónica, Asignatura de Minería de Datos</i><br/>ep.llerenac@uea.edu.ec", IA),
           FrameBreak()]
 L = tdict.loc[LRT]; G = tdict.loc[GBM]
 story += [P("<b><i>Resumen</i>—Se estudia si la calidad de un vino (≥ 90 puntos) puede predecirse a partir de metadatos y del texto de la reseña del catador, usando 119 988 reseñas "
@@ -315,7 +315,7 @@ def footer_ieee(canvas, doc):
 
 
 out = Path(__file__).parent / "Informe_Practica1_Wine_Reviews.pdf"
-doc = BaseDocTemplate(str(out), pagesize=A4, title="Práctica 1 – Minería de Datos: Wine Reviews", author="[Autor]",
+doc = BaseDocTemplate(str(out), pagesize=A4, title="Práctica 1 – Minería de Datos: Wine Reviews", author="Edison Paul Llerena Cuzco",
                       leftMargin=2.2 * cm, rightMargin=2.2 * cm, topMargin=2 * cm, bottomMargin=2 * cm)
 main = Frame(2.2 * cm, 2 * cm, A4[0] - 4.4 * cm, A4[1] - 4 * cm, id="main")
 LW, LH = letter; m = 1.7 * cm; gap = 0.6 * cm; cw = (LW - 2 * m - gap) / 2
